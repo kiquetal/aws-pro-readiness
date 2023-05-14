@@ -277,7 +277,8 @@
   /56 for VPCs
   For IPv6 you need to use Egress-only Internet Gateway.
   
-  
+	
+  Advance vpc structure subnets  
   
   
 

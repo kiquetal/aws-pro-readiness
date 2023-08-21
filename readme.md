@@ -13,9 +13,10 @@
 
 - AWS-PRO (learn.cantril)
 
-
+- AWS Certified Solution Architect Professional (acloudguru)
 
 
 ### Official docs
 
 - https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf
+

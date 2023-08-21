@@ -14,3 +14,8 @@
 - AWS-PRO (learn.cantril)
 
 
+
+
+### Official docs
+
+- https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf

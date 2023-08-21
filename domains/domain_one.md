@@ -21,4 +21,9 @@ Skills in:
 
 ### Task statement 1.2: Prescribe security controls
 
+Knowledge of:
+
+- AWS Identity and Access Management(IAM) and AWS IAM Identity Center (AWS Single Sign-On)
+- Route tables,security groups, and network ACLs
+- Encryption keys and certificate manegement (for example AWS Key Management Serivces( AWS KMS) AWS certificate Manager( ACM)
 

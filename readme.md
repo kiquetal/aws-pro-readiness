@@ -7,3 +7,10 @@
 - Task Statement 5: Determine cost optimization and visibility strategies
 
 
+### Resources
+
+- AWS JAM( AWS partner network)
+
+- AWS-PRO (learn.cantril)
+
+

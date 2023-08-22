@@ -27,3 +27,21 @@ Knowledge of:
 - Route tables,security groups, and network ACLs
 - Encryption keys and certificate manegement (for example AWS Key Management Serivces( AWS KMS) AWS certificate Manager( ACM)
 
+
+### Task statement 1.3: Design reliable and resilient architectures
+
+Knowledge of:
+
+- Recovery time objectives(RTOS) and recovering point objectives(RPOS)
+- Disaster recovery strategies (AWS Elastic Dister Recovery, pilot light, warm standby and multi-site)
+- Data backup and restoration
+
+Skills in:
+
+- Designing disaster recovery solutions based on RTO and RPO requirements.
+- Implementing architectures to autimatically recover from failure
+- Developing the optimal architecture by considering scale-up and scale-out
+options
+- Designging and effective backup and restoration strategy.
+
+

@@ -65,4 +65,46 @@ Knowledge of
 - Application integration (SNS, SQS, Step Functions)
 - Servcice quotas and limits
 
+Skills in
+
+- Designing highly avaiable application environments based on business requiremetns
+- Using advanced techniques to design for failure and ensure seamless system recoverability
+- Implementing loosely coupled dependencies
+- Operating and maintaining high-availability architectures ( application failovers, database failovers)
+- Using AWS managed services for high availability
+- Implementing DNS routing policies ( route 53 latency-based routing, geolocatin routing, simple routing)
+
+### Design a solution to meet perfomance objectives
+
+Knowledgeof:
+- Perfomance monitoring technologies
+- Storage options for AWS
+- Instance families and use cases
+- Purpose-built databases
+
+Skils in:
+
+- Designing large-scale application architectures for a variety of access patterns
+- Designing an elastic architecture based on business objectives
+- Applying desing patterns to meet perfomance objectives with caching, buffering and replica
+- Developing a process methodology for selecting purpose-built services for required tasks
+- Designing a rightsizing strategy
+
+### Task Statement 2.6: Determine a cost optimization strategy to meet solution goals and objectives
+Knowledge of;
+
+- AWS cost and usage monitoring tools (for example Cost Explorer, Trusted Advisor, AWS Prinicing Calculator)
+- Pricing models(for example Reserved Instances, Saving Plans)
+- Storage tiering
+- Data transfer costs
+- AWS managed service offerings
+
+Skills in:
+
+- Identitying opportunities to select and rightsize infraestructure for cost-effective resources
+- Identifying appropiate pricing models.
+- Perfoming data transfer modeling and selecting services to reduce data transfer costs
+- Developing a strategy and implementing controls for expenditure and usage awareness.
+
+
 

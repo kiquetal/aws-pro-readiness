@@ -107,4 +107,104 @@ Skills in:
 - Developing a strategy and implementing controls for expenditure and usage awareness.
 
 
+---
+    
+---
 
+---
+
+### Notes about Security (seguridad)
+
+The security pillar encompasses the ability
+to protect data, systems, and assets to take
+advantage of cloud technologies to improve
+your security.
+
+Design principles for security include
+
+- Implement a strong identity foundation
+- Enable traceability
+- Apply security at all layers
+- Automate security best practices
+- Protect data in transit and at rest
+- Keep people away from data
+- Prepare for security events
+
+---
+
+- Security Foundations
+- Identity and Access Management
+- Detective Controls
+- Infrastructure Protection
+- Data Protection
+- Incident Response
+- Application Security
+
+### Notes about Reliability (fiabilidad)
+
+The reliability pillar encompasses the ability
+of a workload to perform its intended function
+correctly and consistently when it's expected to.
+This includes the ability to operate and test
+the workload through its total lifecycle.
+
+Design principles for reliability include
+
+- Automatically recover from failure
+- Test recovery procedures
+- Scale horizontally to increase aggregate workload availability
+- Stop guessing capacity
+- Manage change in automation
+
+---
+
+- Foundations: Change Management
+- Foundations: Failure Management
+- Foundations: Workload architecture
+- Foundations: Recovery Planning
+
+### Notes about Performance Efficiency (eficiencia de rendimiento)
+
+The performance efficiency pillar includes the
+ability to use computing resources efficiently
+to meet system requirements and to maintain
+that efficiency as demand changes and
+technologies evolve.
+
+Design principles for performance efficiency include
+
+- Democratize advanced technologies
+- Go global in minutes
+- Use serverless architectures
+- Experiment more often
+- Consider mechanical sympathy
+
+---
+
+- Selection
+- Review
+- Monitoring
+- Tradeoffs
+
+
+### Notes about Cost Optimization (optimización de costos)
+
+The cost optimization pillar includes the
+ability to run systems to deliver business
+value at the lowest price point.
+
+Design principles for cost optimization include
+
+
+- Implement cloud financial management
+- Adopt a consumption model
+- Measure overall efficiency
+- Stop spending money on data center operations
+- Analyze and attribute expenditure
+
+---
+- Practice Cloud Financial Management
+- Expenditure Awareness
+- Cost-Effective Resources
+- Matching supply and demand
+- Optimizing over time

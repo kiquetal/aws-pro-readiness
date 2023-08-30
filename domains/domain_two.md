@@ -113,6 +113,30 @@ Skills in:
 
 ---
 
+### Notes about Operational Excellence (excelencia operativa)
+
+The operational excellence pillar includes
+the ability to support development and run
+workloads effectively, gain insight into their
+operations, and to continuously improve
+supporting processes and procedures to
+deliver business value.
+
+Design principles for operational excellence include
+
+- Perform operations as code
+- Annotate documentation
+- Make frequent, small, reversible changes
+- Refine operations procedures frequently
+- Anticipate failure
+- Learn from all operational failures
+
+---
+- Organization
+- Prepare
+- Operate
+- Evolve
+
 ### Notes about Security (seguridad)
 
 The security pillar encompasses the ability

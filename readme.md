@@ -21,3 +21,7 @@
 - https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf
 
 - https://pages.awscloud.com/rs/112-TZM-766/images/APCR_Professional_Study_Plan_Ver1.pdf
+
+### Twitch
+
+- https://pages.awscloud.com/GLOBAL-other-T2-AWS-Power-Hour-Architecting-Pro-2023-reg.html

@@ -112,6 +112,7 @@ Skills in:
 ---
 
 ---
+## The Well-Architected Framework- six pillars
 
 ### Notes about Operational Excellence (excelencia operativa)
 
@@ -232,3 +233,20 @@ Design principles for cost optimization include
 - Cost-Effective Resources
 - Matching supply and demand
 - Optimizing over time
+
+### Notes about sustainability (sostenibilidad)
+
+The sustainability pillar focuses on 
+environmental impacts, especially energy
+consumption and efficiency, since the are 
+important levers for architect to inform direct
+action to reduce resource usage.
+
+Design principles for sustainability include
+
+- Understand your impact
+- Establish sustainability goals
+- Maxime utilization of resources
+- Anticipate and adopt new, more efficient hardware
+- Use managed services
+- Reduce the downstream impact of your cloud workloads

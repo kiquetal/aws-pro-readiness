@@ -136,15 +136,88 @@ Capabilities:
         - Run bootstrapping scripts on applictions
 
 - State Manager
+
+      A desired configuration for several ec2. 
+      Use cases:
+      - Enabling or disabling a service
+      - Ensuring desired state is maintained
+      - Collecting inventory data
+      - Running antivirus scans
+      - Running scripts on your instances
 - Inventory
+
+      Collect instance details and OS details
+      Aggregate data using Resource Data Sync
+      Integrates with AWS Config
+
 - Patch Manager
+
+      Simplify operating system and application
+      patching process
+      Select patches to deploy
+      Specify timing to roll out
+      Control instance reboots
+      Schedule automatic rollout with Maintenance Windows
+
+      Benefits:
+      - Hybrid
+      - Scan, or scan and install missing patches
+      - No additional cost for patching Amazon EC2 instances
+
+      Use Patch Group for the tagging and administration of instances.
+
 - Maintenance Window
+  
+       Define schedule
+       Specify the duration
+       Register a set of targets
+       Register a set of tasks including
+       Run command
+       Automation
+       Lambda function
+       Step Functions 
+
 - Automation
+
+
+      Platform to orchestrate operational playbooks
+      Manage any AWS resource across accounts/Regions
+      Orchestrate dynamic playbooks
+      Standarize and share playbooks across organization
+      Safe at-scale operations
+      Integrates with AWS COnfig, AWS Service Catalog
+
 - Parameter Store
+      
+      Secure and hierarchical storage for:
+      - Configuration data
+      - Secrets data
+
 - Session Manager
+  
+      Fully managed capability
+      Interactive,one click browser based shell or via AWS CLI
+      Eliminates the need to:
+      - inbound network ports
+      - ssh keys
+      - bastion hosts
+    
+      Secure
+      Auditable
+      Native integration with IAM.
+
 - OpsCenter
+
+      The center remediation hub for AWS and hybrid cloud.
+      Integrations with SNS and AWS SDKS
+      AWS Config
+      AWS CloudTrailLogs
+      Amazon CloudWatch Events.
+
 - Explorer
+
 - Change Calendar
+
 - Distributor
 
 

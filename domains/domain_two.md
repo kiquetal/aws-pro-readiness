@@ -111,6 +111,45 @@ Skills in:
     
 ---
 
+### Systems Manager
+
+- Hybrid
+- Cross-platform
+- Scalable
+- AWS Optimized
+- No complex licensing models
+- Partner benefits
+
+Capabilities:
+
+- Run Command
+
+      Remotely and securely run configuration actions at scale
+        - Hybrid
+        - Cross-platform
+        - Scalable
+      How does run command work? In a managed instance, requires document and some kind of invocation.
+      Uses cases:
+        - Monitoring your systems
+        - On-demand patching
+        - Deploying software
+        - Run bootstrapping scripts on applictions
+
+- State Manager
+- Inventory
+- Patch Manager
+- Maintenance Window
+- Automation
+- Parameter Store
+- Session Manager
+- OpsCenter
+- Explorer
+- Change Calendar
+- Distributor
+
+
+
+
 ---
 ## The Well-Architected Framework- six pillars
 
@@ -250,3 +289,4 @@ Design principles for sustainability include
 - Anticipate and adopt new, more efficient hardware
 - Use managed services
 - Reduce the downstream impact of your cloud workloads
+

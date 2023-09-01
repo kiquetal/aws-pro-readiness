@@ -26,3 +26,8 @@
 ### Twitch
 
 - https://pages.awscloud.com/GLOBAL-other-T2-AWS-Power-Hour-Architecting-Pro-2023-reg.html
+
+
+### Key Topics
+
+![img.png](img.png)

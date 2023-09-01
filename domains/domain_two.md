@@ -332,7 +332,6 @@ value at the lowest price point.
 
 Design principles for cost optimization include
 
-
 - Implement cloud financial management
 - Adopt a consumption model
 - Measure overall efficiency
@@ -363,3 +362,10 @@ Design principles for sustainability include
 - Use managed services
 - Reduce the downstream impact of your cloud workloads
 
+### Services to Learn
+
+- AWS Firewall Manager: requires
+
+- AWS Organization
+- AWS Config
+- Establish the administrator account

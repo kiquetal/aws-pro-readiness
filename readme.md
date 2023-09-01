@@ -23,6 +23,7 @@
 - https://pages.awscloud.com/rs/112-TZM-766/images/APCR_Professional_Study_Plan_Ver1.pdf
 
 - https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Architect.pdf
+
 ### Twitch
 
 - https://pages.awscloud.com/GLOBAL-other-T2-AWS-Power-Hour-Architecting-Pro-2023-reg.html
@@ -30,4 +31,4 @@
 
 ### Key Topics
 
-![img.png](img.png)
+![img.png](resources/img.png)

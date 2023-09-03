@@ -1,0 +1,89 @@
+### Route Table
+
+- VPC does not support broadcast.
+
+
+![img.png](img.png)
+
+
+### Border Gateway Protocol (BGP)
+
+- Popular routing protocol for the internet.
+- Propagates information about the network to allow for dynamic routing.
+- Required for Direct Connect and optional for VPN.
+- Alternative of not using BGP with AWS VPC is static routes
+- BGP is a path vector protocol, which means that the BGP router keeps a list of network prefixes that can be reached and the path to reach them.
+- Autonomous System Number (ASN) is a globally unique number that is used to identify an autonomous 
+system and which enables that system to exchange exterior routing information with other neighboring autonomous systems.
+
+
+### Enhanced Networking
+
+- Generally used for High Performance Computing use-cases.
+- Elastic Network Adapter 25 Gbps
+- Intel 82599 VF interface 10 Gbps
+
+### Placement groups
+
+![img_1.png](img_1.png)
+
+Placement Group for cluster:  can span multiple AZ's
+Need low network latency and high network throughput
+Finite capacity
+
+Placement Group for spread:  can span multiple AZ's
+Reduce risk of simultaneous failures if underlying hadware fails 
+or if a single AZ goes down
+
+
+Placement Group for partition: Better for large distributed and replicated workloads
+Reduce risk of correlated hardware failure for multi-instance
+workloads.
+Not supported dedicated hosts
+
+### Hybrid and Cross-Account
+
+- Direct Connect
+- Site-to-Site VPN
+- Establishing High Availability
+
+### Direct Connect
+
+A private Route from ON-Premises to the cloud
+AWS Connect sits global network to your global center.
+Great for frequent transfer of large data sets.
+
+(requires BGP)
+
+![img_2.png](img_2.png)
+
+
+### Site-to-Site VPN
+
+The fastest way to connect on-prem to th ecloud
+
+- Secure, fully managed connection using IPSEs tunnels
+- Connect directly to VPC'sor to transit gateways
+- Two tunnels per VPN connection for redundancy
+
+
+### Establishing High Availability
+
+- One single Point of fail is Direct Connect,You could add a second vpn.
+
+- Ideally you would have two Direct Connects and two VPNs
+
+### To remember for the exam
+
+| Direct Connect                                                                                                    |Site-to-site VPN| Transit Gateway|
+|-------------------------------------------------------------------------------------------------------------------|----------------|----------------|
+| Bypasses the internet, provides<br/>the most<br/>secure route to AWS Cloud,but it can be expensive and take weeks | Are limitedby your ISP,the fastest way to connect | Transist gateway make multi-region multi VPC, multi connection and multi account network much easier, providing scalable networking hub|
+
+
+### PrivateLink
+
+Securely connect to VPC Endpoints
+Control the API endpoints, sites, and services
+that your VPC endpoint can access
+PrivateLink uses interface VPC endpoints
+

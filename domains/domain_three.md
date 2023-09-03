@@ -92,17 +92,13 @@ Knowledge of:
 - Cost conscious architecture choices (using spot instances, scaling policies, and rightsizing resources)
 - Price model adoptions (reserved instances, savings plans)
 - Networking and data transfers costs
-- Cost manegement, alerting and reporting.
+- Cost management, alerting and reporting.
 
 Skills in:
 
-- ANalyzing usage reports to identify underutilized and overutilized resources
-- Using AWS soluions to identify unused resources
+- Analyzing usage reports to identify underutilized and overutilized resources
+- Using AWS solutions to identify unused resources
 - Designing billing alarms based on expected usage patterns
 - Investigating AWS Cost and Usage Reports at granular levels
 - Using tagging for cost allocation and reporting
-
-
-
-
 

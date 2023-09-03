@@ -137,3 +137,32 @@ Dns record types
 | Geolocation |  Route traffic based on the location of your users |
 | Multivalue answer |  Route traffic to multiple resources, such as web servers, in multiple AWS Regions |
 | Geoproximity |  Route traffic based on the geographic location of your users and your resources |
+
+### To remember for the exam
+
+- A Hosted ZOne is a collection of records
+- Multiple accounts help with security and visibility.
+
+
+### CloudFront
+
+Distributed content delivery network (CDN)
+Supports SNi and SSLv3
+
+### Elastic Load Balancer
+
+
+ Three differents load balancer
+  - Application Load Balancer (Layer 7)
+  - Network Load Balancer (Layer 4)
+  - Classic Load Balancer (Layer 4 and Layer 7)
+  - Can be use for public and private workloads.
+  - Consume IP addresses within your VPC
+
+![img_3.png](img_3.png)
+
+
+### Pro Tips
+
+- Explicit deny for NaCLs
+

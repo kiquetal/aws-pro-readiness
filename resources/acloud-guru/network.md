@@ -87,3 +87,53 @@ Control the API endpoints, sites, and services
 that your VPC endpoint can access
 PrivateLink uses interface VPC endpoints
 
+### To remember for the exam
+
+- Connect with services outside of your vpc
+- Dozens of native service integrations
+- Many marketplace solutions are compatible
+
+
+### Global Accelerator
+
+- What is it?
+Move AWS Endpoints closer to your users
+
+- How does it work?
+Gives static public IP addresses that act 
+as a fixed entry point to your application
+endpoints in a single or multiple AWS Regions, 
+such as your Application Load Balancers,
+Network Load Balancers or Amazon EC2 instances.
+
+### To remember for the exam
+
+- Global Accelerator can improve latency up to 60%
+- Multi-Region Routing and Failover
+- Static IP addresses
+
+
+### Route53
+
+Dns record types
+- A
+- CNAME
+- AAAA
+- MX
+- NS
+- PTR
+- SOA
+- SRV
+- TXT
+
+### Routing policies
+
+| Policy |  Route53 is thinking |
+|--------|----------------------|
+| Simple |  One record with multiple IP addresses |
+| Weighted |  Route traffic to multiple resources in proportions that you specify |
+| Latency |  Route traffic based on the lowest network latency for your end user |
+| Failover |  Route traffic to a resource when the resource is healthy or to a different resource when the first resource is unhealthy |
+| Geolocation |  Route traffic based on the location of your users |
+| Multivalue answer |  Route traffic to multiple resources, such as web servers, in multiple AWS Regions |
+| Geoproximity |  Route traffic based on the geographic location of your users and your resources |

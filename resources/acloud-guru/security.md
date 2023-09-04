@@ -42,3 +42,26 @@ AWS SSO can also act as an independent user directory.
 ![img_6.png](img_6.png)
 
 
+
+### Types of Directory Services Offered
+
+|Directory Service Option | Description                                                                                             | Best for                                                                 | 
+|-------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| AWS Cloud Directory | Cloud-native directory to share and control <br/>access to <br/>hierarchical data between applications  | Cloud application that need hierarchical data with complex relationships |
+| Amazon Cognito | Sign-up and sign-in functionality that scales to millons of users and federated to public social medias | Develop consumer apps or SaaS                                            |
+| AWS Directory Service for Microsoft Active Directory | AWS-Managed full Microsoft Active Directory | Windows workloads that require Active Directory                          | Enterprise that want hosted Microsoft AD or you need LDAP for linux apps |
+ | AD Connector | Allows on-premises users to login into AWS services with their existing AD credentials. Also allows EC2 instances to join AD domain| Single sign-on for on-prem employees and for adding EC2 instances to the domain|
+| Simple AD | Low scale, low cost AD implementation basedon Samba | Simple user directory, or you need LDAP compatibility |
+
+![img_7.png](img_7.png)
+
+
+### Credentials and Access Management
+
+- Resource-based Policies vs Identity-Based policies
+
+        Resource-based policies are attached to resources <br>
+        Identity-based policies are attached to identities
+
+
+![img_8.png](img_8.png)

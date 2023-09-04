@@ -65,3 +65,26 @@ AWS SSO can also act as an independent user directory.
 
 
 ![img_8.png](img_8.png)
+
+Shield Vs Shield Advanced
+
+![img_9.png](img_9.png)
+
+Remember Shield Advanced could apply layer 7
+
+### Firewall Manager
+Standardize firewall rules across your accounts and applications
+Integrates with SG,WAF, SHIELD, and Network Firewall
+
+### GuardDuty
+
+![img_10.png](img_10.png)
+
+| Cloudwatch                                          | CloudTRail                                             | 
+|-----------------------------------------------------|--------------------------------------------------------|
+| Log events across AWS services<br/>Think operations | Log API activity across AWS Services; think activities |
+| Higher-Level comprehensive Monitoring and Eventing  | More low-levergranular                                 |
+| Log from multiple account                           | Log from multiple account                              |
+| Logs stored indefinitely                            | Logs stored to s3 or Cloudwatch idefinetely            |
+| Alarms history for 14 days | No native alarm,use cloudwatch alarams                 |
+

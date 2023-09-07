@@ -23,4 +23,11 @@
         Integration Service(SQS,SNS,EventBridge,Step Functions)
 
 
+### EC2 AutoScaling Policies
+
+![img_13.png](img_13.png)
+
+Default cooldown period is 300 seconds
+not supported for scheduled scaling.
+
 

@@ -60,4 +60,32 @@
     Expensive
 
 
+### Storage HA Options
+
+-  EBS Volumes
+    
+    Replicated within an AZ
+    Snapshots are stored in S3
+    Can be restored to another AZ
+    Can be restored to another region
+    Supports RAID
+
+![img_20.png](img_20.png)
+
+
+![img_21.png](img_21.png)
+
+### Compute HA Options
+
+    - EFS
+    - FSx for Windows  
+    - FSx for Lustre
+
+
+### Remember for the exam
+
+- DynamoDB is Optimized for HA
+- Aurora enables HA for RDS
+- Redshift uses multi-node clusters for HA.
+
 

@@ -31,3 +31,33 @@
 
     - The ability of a system to react to a failure of a component in a graceful manner without affecting the overall system.
 
+
+### Disaster recovery architectures
+
+- Backup and Restore
+
+    Pro:
+        -  Very common
+    Cons:
+        Could take a long time to restore
+
+- Pilot Light
+
+    Minimal system to get up and running
+    Requires intervention to initiate the recovery process
+ 
+- Warm Standby
+
+    Shadow environment, ready to go live at any time
+    Needs to scale up to handle the load
+
+- Multi-Site
+
+    Ready all the time to take full production load.
+    Seconds or less
+    Little or no intervention
+
+    Expensive
+
+
+

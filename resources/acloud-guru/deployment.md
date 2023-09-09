@@ -54,3 +54,9 @@
     Automates code deployments to any instance, including EC2 instances and instances running on-premises
 
 ![img_22.png](img_22.png)
+
+### AWS OpsWorks
+
+    Chef and Puppet
+
+

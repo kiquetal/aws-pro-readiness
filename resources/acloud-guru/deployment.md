@@ -60,3 +60,34 @@
     Chef and Puppet
 
 
+### Amazon Workspaces vs AppStream
+
+AppStream delivers applications to any computer
+
+Workspaces is a virtual desktop-fully as a service.
+
+### Amazon Connect
+
+    Cloud-based contact center
+
+### Amazon Chime
+
+    Online meetings, video conferencing, and business calling
+
+### Amazon WorkLink
+
+    Secure, one-click access to internal websites and web apps from mobile phones
+
+### Amazon WorkDocs (like dropbox)
+
+    Fully managed, secure content creation, storage, and collaboration service
+
+### Amazon WorkMail (like gmail)
+
+    Secure, managed business email and calendaring service with support for existing desktop and mobile email clients
+
+### Amazon Honeycode
+
+    Build web and mobile apps with no programming required
+
+

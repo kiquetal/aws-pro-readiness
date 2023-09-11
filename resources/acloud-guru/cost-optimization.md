@@ -25,3 +25,21 @@ types:
 - Convertible Standard Reserved Instances: 1 year commitment, 54% off on-demand price.
   (can change instance family, can change AZ, can change network platform)
 
+
+### Differences between Dedicated Host and Dedicated Instance
+
+- Dedicated Host: Physical server dedicated for your use.
+- Dedicated Instance: Virtual machine running on a physical server dedicated for your use,can
+share with other non-dedicated instances in the same account.
+- Dedicated Host are available on-demand (hourly) or reservation (1 year or 3 years),for on-demand, reserved and spot instances.
+- Dedicated Instance are available on-demand (hourly) or reservation (1 year or 3 years),for on-demand and reserved instances.
+
+
+### Difference between Zonal RI and Regional RI
+
+- Zonal RI: Reserved Instances that provide a capacity reservation in a specific Availability Zone.
+
+- Regional RI: Reserved Instances that provide a capacity reservation in a region. If no AZ is specified, no reservation
+is created but the disscount is applied to any instance in the family
+in any AZ in the region.
+

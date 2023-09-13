@@ -43,3 +43,16 @@ share with other non-dedicated instances in the same account.
 is created but the disscount is applied to any instance in the family
 in any AZ in the region.
 
+### Table of cost using Dedicated Host, Dedicates Instance, Standard
+
+Dedicated Instance are more expensive than Standard, Dedicated Host are more expensive than Dedicated Instance.
+
+
+Dedicated Hosts: reserve capacity.
+Dedicated Instances: can run as spot instances.
+
+### RDS available engines
+
+- MySQL, MariaDB, PostgreSQL, Oracle, Microsoft SQL Server, Amazon Aurora
+
+

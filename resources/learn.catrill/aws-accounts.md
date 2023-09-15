@@ -23,3 +23,12 @@ Can be applied to OUs or accounts.
 
 ![img-scp.png](./images/img-scp.png
 
+### Security Token Service (STS)
+
+The trust policy controls who can assume the role. Conceptually this is a wall around the role.
+They're valid until they expire.
+
+Trust policy has no impact on existing credentials.
+
+
+

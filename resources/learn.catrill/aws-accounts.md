@@ -30,5 +30,19 @@ They're valid until they expire.
 
 Trust policy has no impact on existing credentials.
 
+The correct way to revoke access is to apply an inline policy AWSRevokeOlderSessions to the role.
+
+### Policy Interpretation Deep Dive.
+
+Structure:
+
+- Version
+- Statement
+    - Sid
+    - Effect
+    - Principal
+    - Action
+    - Resource
+    - Condition
 
 

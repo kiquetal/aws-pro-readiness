@@ -40,9 +40,12 @@ Structure:
 - Statement
     - Sid
     - Effect
-    - Principal
+    - Principal : [Required for trust policy]
     - Action
     - Resource
     - Condition
+
+### Permission Boundaries
+
 
 

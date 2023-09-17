@@ -47,5 +47,9 @@ Structure:
 
 ### Permission Boundaries
 
+![img-boundaries.png](./images/img_boundaries.png)
+
+
+
 
 

@@ -55,5 +55,12 @@ Applied to users or roles
 ![img-evaluation-policy](./images/img-evaluation-policy.png)
 
 
+### AWS Resource Access Manager( RAM)
+
+Utilization to connect two aws accounts.
+Products need to support RAM.
+Shared with Principals(Accounts, OU, Orgs, etc)
+
+You can't rely in AZ, between different accounts.
 
 

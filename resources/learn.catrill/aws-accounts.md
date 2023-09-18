@@ -47,8 +47,12 @@ Structure:
 
 ### Permission Boundaries
 
+Applied to users or roles
+
 ![img-boundaries.png](./images/img_boundaries.png)
 
+
+![img-evaluation-policy](./images/img-evaluation-policy.png)
 
 
 

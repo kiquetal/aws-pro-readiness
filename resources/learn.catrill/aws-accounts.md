@@ -63,4 +63,20 @@ Shared with Principals(Accounts, OU, Orgs, etc)
 
 You can't rely in AZ, between different accounts.
 
+### Quotas
 
+API GATEWAY
+
+- API Payload Size: 10MB
+- Connection duration WebSocket: 7200s (2 hours)
+- Custom domain names per region: 120
+
+
+
+### SAML 2.0
+
+Action: sts:AssumeRoleWithSAML
+another action could be: sts:AssumeRoleWithWebIdentity
+
+
+![img-saml.png](./images/img-saml2.png)

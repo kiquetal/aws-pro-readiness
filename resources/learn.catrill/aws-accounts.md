@@ -61,7 +61,7 @@ Utilization to connect two aws accounts.
 Products need to support RAM.
 Shared with Principals(Accounts, OU, Orgs, etc)
 
-You can't rely in AZ, between different accounts.
+You can't rely in AZ between different accounts.
 
 ### Quotas
 
@@ -80,3 +80,4 @@ another action could be: sts:AssumeRoleWithWebIdentity
 
 
 ![img-saml.png](./images/img-saml2.png)
+

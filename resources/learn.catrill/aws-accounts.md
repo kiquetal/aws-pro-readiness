@@ -101,3 +101,8 @@ another action could be: sts:AssumeRoleWithWebIdentity
 
 ### Amazon Cognito 
 
+
+
+### Term
+
+clickstream data: is the sequence of clicks or pages that a user follows before reaching a particular page on a website.

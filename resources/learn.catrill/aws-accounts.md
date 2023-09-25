@@ -106,3 +106,19 @@ another action could be: sts:AssumeRoleWithWebIdentity
 ### Term
 
 clickstream data: is the sequence of clicks or pages that a user follows before reaching a particular page on a website.
+
+### Analytics on AWS
+
+# Analytics 
+- Amazon Athena: Interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL.
+- Amazon EMR: Managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances.
+- Amazon Redshift: Fast, simple, cost-effective data warehousing service.
+- Amazon Kinesis: Platform for streaming data on AWS, offering powerful services to make it easy to load and analyze streaming data, and also providing the ability for you to build custom streaming data applications for specialized needs.
+- Amazon OpenSearch Service: Highly available, scalable, and fully managed Elasticsearch service.
+- Amazon QuickSight: Fast, cloud-powered business intelligence service that makes it easy to deliver insights to everyone in your organization.
+- Amazon AWS Glue DataBrew: Visual data preparation tool that makes it easy for data analysts and data scientists to clean and normalize data to prepare it for analytics and machine learning.
+
+# Data movement
+- AWS Glue: Fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.
+- Amazon Managed Streaming for Apache Kafka (Amazon MSK): Fully managed service that makes it easy for you to build and run applications that use Apache Kafka to process streaming data.
+

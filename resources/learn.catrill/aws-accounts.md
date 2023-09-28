@@ -122,3 +122,15 @@ clickstream data: is the sequence of clicks or pages that a user follows before 
 - AWS Glue: Fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.
 - Amazon Managed Streaming for Apache Kafka (Amazon MSK): Fully managed service that makes it easy for you to build and run applications that use Apache Kafka to process streaming data.
 
+
+### 7r in migration 
+
+ According to the effort required to migrate, there are 7Rs:
+ 
+- Retire: Eliminate the application and its data from the portfolio.
+- Retain: Keep the application as is.
+- Relocate: Mainly suitable running on VMWare or Hyper-V.
+- Rehost: Lift and shift to AWS. (lift and shift)
+- Replatform: Lift, tinker, and shift to AWS.
+- Repurchase: (drop and shop) Drop the existing application and switch to a different product.
+- Refactor: Re-architect the application to leverage cloud-native features.

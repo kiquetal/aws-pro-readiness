@@ -134,3 +134,4 @@ clickstream data: is the sequence of clicks or pages that a user follows before 
 - Replatform: Lift, tinker, and shift to AWS.
 - Repurchase: (drop and shop) Drop the existing application and switch to a different product.
 - Refactor: Re-architect the application to leverage cloud-native features.
+

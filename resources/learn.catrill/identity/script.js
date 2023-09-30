@@ -53,7 +53,7 @@ function accessImages() {
     console.log("Creating Session to S3...");
     var s3 = new AWS.S3();
     var params = {
-        Bucket: "REPLACE_ME_NAME_OF_PATCHES_PRIVATE_BUCKET" // MAKE SURE YOU REPLACE THIS
+        Bucket: "webidf-patchesprivatebucket-ld86apjr32qz" // MAKE SURE YOU REPLACE THIS
     };
 
     // If we are here, things are going well, lets list all of the objects in the bucket

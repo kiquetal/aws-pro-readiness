@@ -29,5 +29,6 @@ in AWS.
 #### AWS Control Tower
 
 - Automates the set up of a baseline environment, or landing zone, that is a secure, well-architected, multi-account AWS environment.
-
+- Uses IAM Identity Center.
+- 
 ![img-control-tower](./images/img-control-tower.png)

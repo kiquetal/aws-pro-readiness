@@ -26,4 +26,8 @@ in AWS.
 - Connector requires 1 or more directory servers to be configured.
 - Network connectivity via Direct Connect or VPN.
 
+#### AWS Control Tower
 
+- Automates the set up of a baseline environment, or landing zone, that is a secure, well-architected, multi-account AWS environment.
+
+![img-control-tower](./images/img-control-tower.png)

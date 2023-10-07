@@ -13,10 +13,17 @@
     HA and Redundancy.
     Route traffic between subnets.
     Controlled using Route Tables.
-    
-    
+
+    Every VPC is created with a Main route table.
 
 #### Stateful vs Stateless firewalls
 
-
+    TCP run L4
+    
+    Security Groups are stateful.
+    Network ACLs are stateless.
+    The main difference is that Network ACLs have separate inbound and outbound rules, 
+    while Security Groups use a single set of rules for both inbound and outbound traffic.
+    
+    
 

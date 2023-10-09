@@ -25,5 +25,9 @@
     The main difference is that Network ACLs have separate inbound and outbound rules, 
     while Security Groups use a single set of rules for both inbound and outbound traffic.
     
-    
+    Statefull firewall is intelligent enough to idenfity the REQUEST and RESPONSE components
+    of a connection as being related.
+
+    Allowing the REQUEST(inbound or outbound) means the respnse(inobound or outbound) is automatically allowed.
+
 

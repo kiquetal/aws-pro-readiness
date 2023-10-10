@@ -20,7 +20,7 @@
 
     TCP run L4
     
-    Security Groups are stateful.
+    Security Groups are stateful. (detects response traffic automatically(
     Network ACLs are stateless.
     The main difference is that Network ACLs have separate inbound and outbound rules, 
     while Security Groups use a single set of rules for both inbound and outbound traffic.
@@ -40,4 +40,16 @@
     NACL cannot be assigned to AWS resources, they are associated with subnets.
 
     
+    SG are attached to ENIS.
+
+![img_sg_inbound.png](./images/img_sg_inbound.png)
+
+    Capacity: 200 rules per NACL
+    60 rules per SG
+
+    NACLs are evaluated before SGs when traffic enters or leaves a subnet.
+
+
+#### AWS Local Zone
+
     

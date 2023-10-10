@@ -63,5 +63,28 @@
     Global Accelerator is a networking service that sends your user’s traffic through Amazon Web Services’ global network infrastructure, improving your
     internet user performance by up to 60%.
 
-    
-    
+    Moves the AWS network closer to customers.
+    Connections enter at edge using anycast IP addresses.
+    Transit over AWS backbone to 1+ locations.
+    Can be used for NON HTTPS( TCP or UDP) traffic.
+
+### IPSEC VPN Fundamentals
+
+    Has two main phases: IKE phase 1 (slow) and IKE phase 2 (fast)
+    IKE phase 1: Authentication and key exchange
+    Using Asymmetric encryption to agree on, andcrate a shared symmetric key.
+
+    IKE phase 2: Fast & Agile
+    Uses the keys agreed in phase 1 to create a secure tunnel.
+    Create IPSEC CA and IPSEC tunnel.
+
+  Policy-based VPN
+  rule sets match traffic => a pair of SAs
+  different tules/security settings
+
+  Route-based VPN
+  target matching (prefix)
+  matches a single pair of Sas
+
+
+

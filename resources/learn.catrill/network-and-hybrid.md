@@ -31,3 +31,13 @@
     Allowing the REQUEST(inbound or outbound) means the respnse(inobound or outbound) is automatically allowed.
 
 
+    Network Access Control List (NACL) is a stateless firewall.
+    
+    Custom NACL
+    They have only one rule, for inbound and outbound, they deny all traffic by default.
+    Only impacts data crossing subnet boundary
+    Ips/CIDR,Port & Protocols, no logical resources
+    NACL cannot be assigned to AWS resources, they are associated with subnets.
+
+    
+    

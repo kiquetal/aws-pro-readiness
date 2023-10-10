@@ -52,4 +52,16 @@
 
 #### AWS Local Zone
 
+    Think as single AZ, locates near your parent region
+
+### Border Gateway Protocol (BGP)
+
+    Autonomous System (AS) Routers controlled by one entity a network in BGP.
+    
+### Global Accelerator
+
+    Global Accelerator is a networking service that sends your user’s traffic through Amazon Web Services’ global network infrastructure, improving your
+    internet user performance by up to 60%.
+
+    
     

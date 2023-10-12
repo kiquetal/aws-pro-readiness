@@ -86,7 +86,31 @@
   target matching (prefix)
   matches a single pair of Sas
 
+#### AWS Site-To-Site VPN
+
+  VGW is HA
+  VPN connection is not HA
+
+![img-vpn-connection.png](./images/img-vpn-connection.png)
+
+![img-vpn-connection-ha.png](./images/img-vpn-connection-ha.png)
 
 
+### Static vs Dynamic VPN (BGP)
+
+  Static: Routes for remote side added to route tables as static routes. 
 
 
+![img-static-bgp.png](./images/img-static-bgp.png)  
+
+  Dynamic: Routes for remote sided added to route table as static routes
+  Route propagation
+
+  Speed Limitation: 1.25 Gbps
+  Latency: inconsistent, public internet.
+
+
+  
+### AWS Transit Gateway ( TGW)
+
+  

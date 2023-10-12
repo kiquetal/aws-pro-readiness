@@ -134,3 +134,8 @@
 
 ![img-transit-gateway-isolation.png](./images/img-transit-gateway-isolation.png)
   Difference between association and propagation: Association is for the attachment, propagation is for the route table.
+
+![img-gateway-table.png](./images/img-gateway-table.png)
+
+  Check about gateway route table.
+  

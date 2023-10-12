@@ -113,4 +113,24 @@
   
 ### AWS Transit Gateway ( TGW)
 
-  
+  Up to 50 peering connections per TGW
+  Different regions & accounts
+  Data is encrypted in transit
+  No route learning/propagation
+  Hub and Spoke model.
+  Attachments can only be associated with 1 RT.
+  Attachements can propagate to many RT'S
+  RT's can be associated with many attachments.
+
+  ![img-transit-gateway.png](./images/img-transit-gateway.png)
+
+  Considerations:
+  Support transitive routing
+  Can be peer transit gateways, using AWS Resource Access Manager (RAM)
+  Peer with different regions same or cross account.
+  Less complex than VPC peering
+
+![img-transit-gateway-graph.png](./images/img-transit-gateway-graph.png)
+
+![img-transit-gateway-isolation.png](./images/img-transit-gateway-isolation.png)
+  Difference between association and propagation: Association is for the attachment, propagation is for the route table.

@@ -138,4 +138,8 @@
 ![img-gateway-table.png](./images/img-gateway-table.png)
 
   Check about gateway route table.
+  Acceleration can be enabled when creating a TGW VPN Attachment.
+  Not compatible with VPN using VGW
+
+
   

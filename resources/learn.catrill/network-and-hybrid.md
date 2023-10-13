@@ -141,5 +141,8 @@
   Acceleration can be enabled when creating a TGW VPN Attachment.
   Not compatible with VPN using VGW
 
+![img-vpn-tunnel.png](./images/img-vpn-tunnel.png)
+
+  
 
   

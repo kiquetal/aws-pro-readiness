@@ -155,7 +155,7 @@
   - Private VIF: Access to a single VPC (Using Virtual private gateway or VGW)
   - Public VIF: Access to AWS public services (S3, DynamoDB, etc)
   
-
+  ![img-private-vif.png](./images/img-private-vif.png)
   
 
   

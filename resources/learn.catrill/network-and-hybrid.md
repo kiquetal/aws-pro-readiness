@@ -144,6 +144,18 @@
 ![img-vpn-tunnel.png](./images/img-vpn-tunnel.png)
 
 
+### AWS Direct Connect
+
+  A physical connection between your on-premises network and AWS.(1,10,100 Gbps)
+  Bussiness Premises => DX Location => AWS Region
+  Port Allocation at a DX Location.
+  1 or more Virtual Interfaces (VIFs) per port.
+  Typos of VIF
+  - Transit VIF: Access to all VPCs in a region
+  - Private VIF: Access to a single VPC (Using Virtual private gateway or VGW)
+  - Public VIF: Access to AWS public services (S3, DynamoDB, etc)
+  
+
   
 
   

@@ -155,7 +155,20 @@
   - Private VIF: Access to a single VPC (Using Virtual private gateway or VGW)
   - Public VIF: Access to AWS public services (S3, DynamoDB, etc)
   
+  Private VIF can only access VPC in the same AWS region via VGW.
   ![img-private-vif.png](./images/img-private-vif.png)
   
 
+  Public VIF: No direct to private VPC Services.
+  Can access all public zones regions- across AWS Global network.
+  AWS Advertise all AWS Public IP ranges to you
   
+![img-public-vif.png](./images/img-public-vif.png)
+
+  Public VIF can't access private IP addresses.
+
+![img-public-vif-vpn.png](./images/img-public-vif-vpn.png)
+
+  Private VIF: Access to a single VPC
+  Using VGW
+  Can access all private IP addresses

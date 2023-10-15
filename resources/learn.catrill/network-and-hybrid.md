@@ -172,3 +172,20 @@
   Private VIF: Access to a single VPC
   Using VGW
   Can access all private IP addresses
+
+### Direct Connect Gateway
+
+  Private VIF => DX Gateway (any region) (remember VIF is region specific)
+  Associate with VGW attached to VPCs globally
+  No inter-vpc routing is possible.
+![img-transit-gateway-dx.png]( ./images/img-transit-gateway-dx.png)
+
+  Transit Gateway the way to use inter-vpc routing
+  But you use Transit VIF to connect to Transit Gateway
+
+![img-tgw-same-region.png](./images/img-tgw-same-region.png)
+
+
+![img-transit-inter-region.png](./images/img-transit-inter-region.png)
+
+  Direct Connect is not HA for you,but it is HA for AWS.

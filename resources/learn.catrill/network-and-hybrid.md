@@ -190,4 +190,12 @@
 
   Direct Connect is not HA for you,but it is HA for AWS.
 
-.
+  Multiple physical connection act as one - speed * n.
+  LAG= Link Aggregation Groups.
+  
+
+### Route53 Fundamentals
+
+  Hosted Zones: DNS Database
+  Record Sets: DNS Records
+  

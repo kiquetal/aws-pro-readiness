@@ -189,3 +189,5 @@
 ![img-transit-inter-region.png](./images/img-transit-inter-region.png)
 
   Direct Connect is not HA for you,but it is HA for AWS.
+
+.

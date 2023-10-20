@@ -199,3 +199,24 @@
   Hosted Zones: DNS Database
   Record Sets: DNS Records
   
+  Route53 Split View:
+  You can use a public and private hosted zone, with the same domain name.
+  
+  R53 CNAME vs Alias
+  "A" maps a name to an IP address
+  "CNAME" maps a name to another name
+  "Alias" maps a name to an AWS resource
+  "MX" maps a name to a mail server
+  "NS" maps a domain to the name servers
+  "PTR" maps an IP to a name (reverse DNS)
+  "SOA" Start of Authority, defines the zone
+  "TXT" Text record, used for SPF and DKIM in email
+  "SRV" Service record, defines a service endpoint
+  "SPF" Sender Policy Framework, defines email sender policy
+  "NAPTR" Name Authority Pointer, defines a regular expression based rewrite rule
+
+  Simple Routing: All values are returned in a random order each record can have multiple values.There
+  are no health checks.
+  
+  Route53 Failover Routing Policy: Active/Passive failover.
+  2 record with same name, one is primary and the other is secondary.

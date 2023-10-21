@@ -220,3 +220,21 @@
   
   Route53 Failover Routing Policy: Active/Passive failover.
   2 record with same name, one is primary and the other is secondary.
+
+  Multi Value Routing Policy: Multiple healthy records are returned in a random order.
+  not a replacement for ELB.
+  Supports multiple records with the same name and different IPs.
+  
+  Weighted Routing Policy: Route traffic to multiple resources in proportions that you specify.
+  You can specify different health checks for different records.
+
+  Latency Routing Policy: Route traffic based on the lowest network latency for your end user.  
+  Use the same anme in each AWS region and Route53 will return the region with the lowest latency.
+  You can combine with health checks. (calculate the latency between the user and the region)
+  
+  Geolocation Routing Policy: Route traffic based on the location of your users.
+
+  Geoproximity Routing Policy: Route traffic based on the location of your resources and, optionally,
+  shift traffic from resources in one location to resources in another. (calculate the distance between//)
+
+  

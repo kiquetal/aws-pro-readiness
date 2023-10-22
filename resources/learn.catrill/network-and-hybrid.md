@@ -240,3 +240,21 @@
   AWS PrivateLink: It is been used by Gateway Endpoints and Interface Endpoints.
   IPV4 and TCP only.
 
+  Gateway endpoint:
+  S3 and DynamoDB private access.
+  Prefix List added to route table => Gateway Endpoint
+  Are HA by design.
+  Can have endpoint policies.
+  Not accessible outside of VPC.
+
+  Interface Endpoint:   
+  Similar to gateway endpoint, provides private access.
+  Not HA by default. Added to specific subnets. an ENI
+  Controlled via Security groups.
+  Can be used endpoint policies.
+  TCP and IPv4
+  Uses PrivateLink.
+
+  
+  
+

@@ -246,6 +246,7 @@
   Are HA by design.
   Can have endpoint policies.
   Not accessible outside of VPC.
+  
 
   Interface Endpoint:   
   Similar to gateway endpoint, provides private access.
@@ -254,7 +255,16 @@
   Can be used endpoint policies.
   TCP and IPv4
   Uses PrivateLink.
+  Uses DNS and private ips
 
+  VPC ENDPOINT POLICIES: Is a resource policy that controls access to a service endpoint.
+  just control restrictions to the endpoint, not to the resource.
+
+![img-vpc-endpoint-policies.png](./images/img-vpc-endpoint-policies.png)
+
+  
+
+  
   
   
 

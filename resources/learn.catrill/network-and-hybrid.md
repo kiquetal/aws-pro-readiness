@@ -237,4 +237,6 @@
   Geoproximity Routing Policy: Route traffic based on the location of your resources and, optionally,
   shift traffic from resources in one location to resources in another. (calculate the distance between//)
 
-  
+  AWS PrivateLink: It is been used by Gateway Endpoints and Interface Endpoints.
+  IPV4 and TCP only.
+

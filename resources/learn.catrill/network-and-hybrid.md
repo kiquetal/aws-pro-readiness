@@ -262,8 +262,14 @@
 
 ![img-vpc-endpoint-policies.png](./images/img-vpc-endpoint-policies.png)
 
-  
+  DNS in VPC
 
+  Route53 Resolver = DNS. VPC.2, .2 is also reserved in subnets.
+
+  Route53 Endpoints are VPC interfaces- Accessible over VPN or DX.
+  Inbound = on-premises can forward to R53 Resolver
+  Outbound = R53 Resolver can forward to on-premises
+  
   
   
   

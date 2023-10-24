@@ -270,6 +270,13 @@
   Inbound = on-premises can forward to R53 Resolver
   Outbound = R53 Resolver can forward to on-premises
   
+  VPC IPv6
+  IPV4 = 4,294,967,296
+  IPV6= 340,282,366,920,938,463,463,374,607,431,768,211,456
+  All IPv6 addresses are public. Nat is not used for IPv6.
+  /56 for VPCs
+  For IPv6 you need to use Egress-only Internet Gateway.
+  
   
   
   

@@ -279,6 +279,7 @@
   
 	
   Advance vpc structure subnets  
-  1 tier in 3 subnet= HA  
+  1 tier in 3 subnet= HA
+  SG= Per ENI/Resource Security  
   
 

@@ -282,4 +282,5 @@
   1 tier in 3 subnet= HA
   SG= Per ENI/Resource Security  
   Differents routing destinations
-
+  Public subnet, can have public and private instances
+  Private subnet, can have only private instance.

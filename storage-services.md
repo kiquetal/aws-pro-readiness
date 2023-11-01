@@ -9,4 +9,9 @@
     Highly perfomance.
     
     
-### 
+### Key Features
+   
+    VSS - User driven restores
+    SMB native integration.
+    DFS
+    Windows permissions models

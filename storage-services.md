@@ -4,4 +4,9 @@
 	Designed for integration with windows environments
 	Integrates with Directory Services or self-managed AD
     Single or Multi-AZ within AZ
+    Back-up compatible
+    Can kms at reast
+    Highly perfomance.
+    
+    
 ### 

@@ -15,3 +15,5 @@
     SMB native integration.
     DFS
     Windows permissions models
+
+### New

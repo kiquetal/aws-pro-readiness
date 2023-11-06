@@ -57,12 +57,14 @@
     S3 Glacier Instance = for long-lived accesed once per qtr with
     millisecond latency. 128kb for min size. 90 day minimum storage duration.
 
+    S3 Glacier Instant : 99.99% availability, 11 9's durability
+    min size is 128kb
+
     S3 Glacier Flexible: min 90 day storage duration,
     min size is 40kb
     Expedited: 1-5 minutes
     Standard: 3-5 
     Bulk: 5-12 hours
-    
 
     S3 Glacier Deep Archive: 99.99% availability, 11 9's durability
     min is 40kb
@@ -70,6 +72,5 @@
     S3 Outposts: 99.99% availability, 11 9's durability
     
 
-
-
+![s3-lifecycle-transitions.png](./images/s3-lifecycle-transitions.png)
 

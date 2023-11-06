@@ -28,5 +28,14 @@
     Accesible over VPN or Direct Connect.
     
 
+### Efs Architecture
+
+    Linux Only
+    General Purpose or Max I/O performance modes
+    Uses NFSv4.1 protocol
+    Bursting and Provisioned Throughput modes
+
+    
+
 
 

@@ -74,3 +74,43 @@
 
 ![s3-lifecycle-transitions.png](./images/s3-lifecycle-transitions.png)
 
+### S3 - CRR( Cross-Region Replication)
+
+    Replicate data across regions for compliance, lower latency, etc.
+    Versioning must be enabled on both source and destination buckets.
+    Regions must be unique.
+    Files in an existing bucket are not replicated automatically.
+    All subsequent updated files will be replicated automatically.
+    Delete markers are not replicated.
+    Deleting individual versions or delete
+
+### S3 Replication Options
+
+    All objects or a subset
+    Storage-Class default is to maintain.
+    Ownership- default is the source account. (CAREFULL ABOUT THIS! THE DESTINATION ACCOUNT COULD NOT ACCESS THE OBJECTS!)
+    No system events, Glacier or Glacier Deep Archive.
+
+    SRR - Log aggregation
+    CRR - Global Resilience Improvements
+    CRR - Latency Reduction
+
+### S3 Bucket Keys
+
+    CloudTrail KMS events now show the bucket.
+    Not the object
+    Works with replication, the object encryption is maintained.
+    
+### S3 Presigned URLS
+
+    Uses the identity which created it.
+    You can create a URL for an object you have no access to
+    When using the URL, the permissions match the identity which generated it.
+    Access denied could mean the generating ID never had access or doesn´t now.
+    Don't generate with a role. URL stops working when temporary credentials expire.
+
+
+
+
+    
+

@@ -155,6 +155,26 @@
     Block Express: Up to 256,000 IOPS per volume.
     Up to 4,000 MB/s per volume.
 
+### Instance Store Volume
+
+    Attached at launch time.
+    Local on EC2 Host
+    Lost on instance, move, resize, or hadrware failure 
+    High Performance
+    
+### Choosing between Instance Store and EBS.
+
+    Persistance = EBS (avoid instance store)
+    Resilience = EBS (avoid instance store)
+    
+### Transfer Family
+
+    Supports transferring TO or FROM S3 and EFS
+    FTP, FTPS, SFTP, AS2, MFTW
+    Multi AZ
+
+
+
 
     
 

@@ -23,5 +23,11 @@
     Dedicated Instances: You don't own,or sharethe host.Extra charges for instances, but
     dedicated hardware.
     
+    Capacity reservations:
+    - Can be usefull when you need computing options with no interruptions.
     
+    EC2 Saving Plans:
+    - 1-3 year commitment.
+    Currently ec2,fargate and lambda.
+    Products have an on-demand rate and a saving plan rate.
     

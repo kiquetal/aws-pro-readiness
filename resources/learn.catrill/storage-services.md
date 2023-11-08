@@ -109,6 +109,11 @@
     Access denied could mean the generating ID never had access or doesn´t now.
     Don't generate with a role. URL stops working when temporary credentials expire.
 
+### S3 Select and Glacier Select
+
+    A way to retrieve objects, using SQL queries.
+    Works with CSV, JSON, Parquet files, BZIP2 
+
 
 
 

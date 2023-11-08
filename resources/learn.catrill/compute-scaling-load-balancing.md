@@ -30,4 +30,10 @@
     - 1-3 year commitment.
     Currently ec2,fargate and lambda.
     Products have an on-demand rate and a saving plan rate.
+    Beyond your commitment, you pay on-demand rates.
+
+    Advanced ec2 networking :
+    Additional ENIS can be added in and remove from other subnet, but no in other AZ.
+    Primary ENI created with the instance cannot be removed.
+    Security group are attached to ENI.
     

@@ -114,8 +114,49 @@
     A way to retrieve objects, using SQL queries.
     Works with CSV, JSON, Parquet files, BZIP2 
 
+### S3 Access Points
+
+    Simplify managing access to S3 Bucketrs/Objects
+    Many access point per bucket
+    
+### S3 Object Lock
+    
+    Can only be enabled for new buckets. 
+    Write Once Read Many (WORM),NO DELETE, NO OVERWRITE
+    Requires versioning enabled on the bucket.
+    1- Retention Period
+        - Compliance : Can't be overwritten or deleted for a specified period of time.
+        - Governance: Special permissions can be granted allowing lock settings to be adjusted.
+
+    2- Legal Hold
+        No retention, No deletes or changes until removed.
+        s3:PutObjectLegalHold is required to add or remove.
+
+### Amazon Macie
+
+    Uses ML to discover, classify and protect sensitive data.
+    Uses CloudTrail, CloudWatch Events, CloudWatch Logs, VPC Flow Logs, S3 Logs, AWS Config, and more.
+    Uses mutli-account structures.
+    Reacting with S3.
 
 
+### EBS Volume Types
+
+    GP2 = SSD 
+    Up to 16,000 IOPS per volume.
+    Up to 250 MB/s per volume.
+    GP3 = 
+    Up to 16,000 IOPS per volume.
+    Up to 1,000 MB/s per volume.
+
+    Provisioned IOPS= can be adjusted independently from volume size.
+    Up to 64,000 IOPS per volume.
+    Up to 1,000 MB/s per volume.
+    Block Express: Up to 256,000 IOPS per volume.
+    Up to 4,000 MB/s per volume.
+
+
+    
 
     
 

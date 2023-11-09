@@ -43,4 +43,9 @@
     Minimum of /27 subnet size.
     Architectural points
         - ELB is a DNS A record pointing at a 1+ Nodes Per AZ.
-        - 
+        - Nodes (in one subnet per AZ) can scale
+        - Internet-facing means whole nodes have public IPv4 IPS
+        - Interanl is private only IPs
+        - EC2 doesn't need to be public to work with a LB.
+
+

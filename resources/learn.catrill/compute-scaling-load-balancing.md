@@ -72,6 +72,19 @@
     - Routing based on IP
     - Routing based on TCP port
     - Routing based on UDP port
-    
+    - Unbroken encryption
+    - PrivateLink
+    - Protocol not HTTPS or HTTP
 
-    
+### Autoscaling 
+
+- Manual: Manually adjust the desired capacity
+- Scheduled: Time based adjustment
+- Dynamic
+        - Simple scaling: CPU abpve 50%
+        - Stepped : Bigger +/- based on difference
+        - Target tracking: Based on a single CloudWatch metric
+
+- Use cooldown to avoid rapid scaling.
+- Think about more, smaller instances - granularity
+- 

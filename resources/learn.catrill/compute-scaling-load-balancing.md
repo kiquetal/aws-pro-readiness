@@ -87,4 +87,25 @@
 
 - Use cooldown to avoid rapid scaling.
 - Think about more, smaller instances - granularity
-- 
+
+
+### ASG Scaling Policies
+
+- ASG don´t need scaling policies - they can have none.
+- Manual, Min- Max Desired
+
+### Connection draining: What happens when instances are unhealthy or deregisetered.
+Normally all connections are closed & no new connections
+Connection draining allows in-flight requests to complete
+Classic Load Balancer only
+
+Deregistration delay: Supported on ALB, NLB and GWLBS
+defined on the target group NOT THE LB.
+
+X-Forwarded-for not supported on NLB.
+
+Proxy protocol is layer 4. (tcp)
+
+
+
+

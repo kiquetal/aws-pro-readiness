@@ -48,4 +48,30 @@
         - Interanl is private only IPs
         - EC2 doesn't need to be public to work with a LB.
 
+#### Application Load Balancer vs Network Load Balancer.
 
+    Classic Load Balancer does not scale, every unique HTTPS name requires an individual CLB
+    because SNI isn´t supported.
+
+
+    Application Load Balancer:
+    - Layer 7
+    - HTTP, HTTPS, Websocket
+    - Routing based on URL
+    - Routing based on hostname
+    - Routing based on path
+    - Routing based on query string
+    - Routing based on headers
+    - Routing based on source IP
+    - Routing based on HTTP method
+    - Routing
+
+    Network Load Balancer: Better perfomance than ALB.
+    - Layer 4
+    - TCP, TLS, UDP
+    - Routing based on IP
+    - Routing based on TCP port
+    - Routing based on UDP port
+    
+
+    

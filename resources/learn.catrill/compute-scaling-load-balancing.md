@@ -40,4 +40,7 @@
 
 ### Load Balancer -  
 
-    
+    Minimum of /27 subnet size.
+    Architectural points
+        - ELB is a DNS A record pointing at a 1+ Nodes Per AZ.
+        - 

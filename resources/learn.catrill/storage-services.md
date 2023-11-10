@@ -174,7 +174,9 @@
     Multi AZ
 
 
+### Placement groups
 
+    
 
     
 

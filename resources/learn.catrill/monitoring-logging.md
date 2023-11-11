@@ -13,4 +13,18 @@
     Resolution = Standard (60 seconds) or High Resolution (1 second)
     Determines the minimum period for a data granularity
 
+    Retention 
+        - sub 60 = retained for 3 hours
+        - 60 seconds = 15 days
+        - 5 minutes = 63 days
+        - 1 hour = 455 days
+
+    As data ages its aggregated and stored for longer with less resolution.
     
+    Alarm = watches a metric over a time period.
+    value of metric vs threshold over time.
+    
+    Alarm States
+        - OK
+        - INSUFFICIENT_DATA
+        - ALARM    

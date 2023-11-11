@@ -176,7 +176,22 @@
 
 ### Placement groups
 
+    Cluster: Pack instances close together  : low latency
+    Spread keep instances separated : critical instances
+    Partition: groups of instances spread apart : large distributed and replicated workloads
+
+
+    Partiion placement groups
+    Instances can be placed in a specific partition.
+    7 partitions per AZ
+    HDFS,HBASE and Cassandra
+    Own racks and network switches.
+    You can launch many instances in a partition.
+
+### 
     
+
+
 
     
 

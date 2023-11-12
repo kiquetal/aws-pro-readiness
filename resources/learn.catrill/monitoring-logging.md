@@ -28,3 +28,9 @@
         - OK
         - INSUFFICIENT_DATA
         - ALARM    
+
+    Data architecture - terms and concepts
+
+    Namespaces: container for metrics
+    Datapoint: timestamp, value, unit of measure
+    Metric: time ordered set of data points (CPUUtilization, NetworkIn, NetworkOut)

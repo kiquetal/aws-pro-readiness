@@ -79,4 +79,24 @@
 
     Up to 15 replicas.
 
+    All SSD based, high IOS, low latency
+    Storage is billed based on what'used.
+    High water mark billed for the most used.
 
+    Restores create a new cluster
+    Backtrack can be used wich allow in-place rewinds to a previous point in time.
+
+### Aurora serverless
+
+    You provion ACU (Aurora Capacity Units)
+    ACU is a combination of CPU and Memory.
+
+    Uses cases: infrequently used applications.
+    for new applicatons.
+    unpredictable workloads.
+
+
+    
+    
+    
+    

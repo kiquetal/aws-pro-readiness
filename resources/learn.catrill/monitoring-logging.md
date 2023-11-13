@@ -34,3 +34,24 @@
     Namespaces: container for metrics
     Datapoint: timestamp, value, unit of measure
     Metric: time ordered set of data points (CPUUtilization, NetworkIn, NetworkOut)
+    Every metric has a MetricName and Dimensions (name/value pair)
+
+    Resolution: Standard (60 seconds) or High Resolution (1 second)
+
+    Logs - Ingestion
+    - Public Service - Store, Monitor, Access logging data
+    - AWS on- premises IOT or any application.
+    - CWAgent- system or custom application logging.
+    - VPC Flow Logs - network traffic
+    - CloudTrail - API calls
+
+    Cloudwatch is a regional service.   
+    Logs groups are a collection of logs streams.
+    Every log stream has a log events.
+    
+    Logs Subscriptions - send logs to other services
+    
+    CloudTrail refresher
+    
+    
+

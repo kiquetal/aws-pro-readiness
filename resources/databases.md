@@ -69,5 +69,7 @@
     SSL/TLS is available for RDS, can be mandatory.
     RDS supports EBS volume encryption.
     Handled by host/ebs
+    RDS MSSQL and RDS ORacle support TDE (Transparent Data Encryption)
+
 
 

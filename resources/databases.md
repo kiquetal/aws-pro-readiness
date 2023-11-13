@@ -71,5 +71,12 @@
     Handled by host/ebs
     RDS MSSQL and RDS ORacle support TDE (Transparent Data Encryption)
 
+### Amazon Aurora key difference
+
+    A single primary instance + 0 more replicas.
+    No local storage, uses cluster volume
+    Uses a "clusters"
+
+    Up to 15 replicas.
 
 

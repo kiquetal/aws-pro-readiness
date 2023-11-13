@@ -82,9 +82,21 @@
     Have to be enabled individually per account.
     AWS-Generated (aws:creeatedby) and User-Defined (user:environment)
     
-    AWS Trust Advisor
+    AWS Trust Advisor 
+    Tied to the support plan you have.
+    Free core 7 checks for free plan.
+    - S3 bucket permissions
+    - Security Groups - specific ports open
+    - IAM use
+    - MFA on root account
+    - EBS public snapshots
+    - RDS public snapshots
+    - Service limits (50 services)
+
+    With the business or entrprise support, you have 115 further checks     
     
-    
+    Access via the new Support API
+    Integration with Cloudwatch Events
 
 
     

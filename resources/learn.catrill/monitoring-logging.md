@@ -52,6 +52,42 @@
     Logs Subscriptions - send logs to other services
     
     CloudTrail refresher
+    90 days stored by default in Event History
+    Management Events and Data Evens
+    Only Management events are enabled by default.
+    Is a regional service.
+    Trail can be set for all regions.
+
+    IAM,STS,CLOUDFRONT global service events.
+    
+
+    X-Ray - distributed tracing system
+
+    Tracing Header: first service generates it's unique used to track a request through your distributed application
+    
+    Segments: data blocks, host/ip request, response work done, issues
+    
+    Subsegments: more granular version of the above, call to other service as a part of segment.
+    Service graph: json document detailling services and resources which make up your application.
+    Service Map: Visual version of the service graph showing traces.
+
+    EC2- X-ray agent
+    ECS- Agent in taks
+    Lambda -enable option
+    Elastic Beanstalk - enable option
+    API Gateway - enable option
+    Requires IAM permissions to work.
+
+    Cost allocation tags: 
+    Have to be enabled individually per account.
+    AWS-Generated (aws:creeatedby) and User-Defined (user:environment)
+    
+    AWS Trust Advisor
+    
+    
+
+
+    
     
     
 

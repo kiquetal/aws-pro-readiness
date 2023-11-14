@@ -95,7 +95,12 @@
     for new applicatons.
     unpredictable workloads.
 
+    Aurora Multi-Master: Writes
+    
+### RDS Proxy
 
+    Managed proxy runs only in VPC.
+    Maintain a long lived connection pool.
     
     
     

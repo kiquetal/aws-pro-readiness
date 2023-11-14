@@ -190,7 +190,18 @@
 
 
     
+### RDS Custom
 
+    Fills the gap between between RDS and EC2 running a DB Engine.
+    DB on EC2 is self managed but has overhead.
+    MS SQL and Oracle
+    Running within the account.
+
+#### Dynamodb Operations, Consistency and Performance.
+
+    Read and Write: On- demand unkown unpredictable ,low admin
+    Read and Write: Provisioned predictable, high admin
+    
 
 
     

@@ -202,9 +202,28 @@
     Read and Write: On- demand unkown unpredictable ,low admin
     Read and Write: Provisioned predictable, high admin
     
+    Every item up to 400kb
+    3 read consistency models
+        - Eventual Consistent Reads (Default)
+        - Strongly Consistent Reads
+        - Transactional Consistent Reads
+    1 WCU = 1 write per second for an item up to 1kb
+    1 RCU = 1 strongly consistent read per second for an item up to 4kb
 
 
     
+#### DynamoDB consistency model
+
+    Eventually consistency = Default
+    Strongly consistency = 2x cost
+    
+#### Local Secondary INdexes (LSI)
+
+    LSI is an alternative view for a table.
+    MUST be created with a table.
+    5 LSI per base table.
+    Alternative SK on the table
+    Shares the RCU and WCU with a table.
 
     
 

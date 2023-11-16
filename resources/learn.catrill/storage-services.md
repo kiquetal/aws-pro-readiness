@@ -277,6 +277,13 @@
  #### Quantum Ledger Databases(QLDB) 
  
     Uses S3, and near real time with Kinesis.
+    Finance applications
+    Medical operations - full history of data changed.
+    Logistics - track movement of objects
+    Legal track usage and change of data.
+
+
+
 
  
 

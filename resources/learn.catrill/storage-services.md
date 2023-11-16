@@ -255,6 +255,17 @@
     Schema-on-read table like translation
     Original data never changed - remains on s3
     Schema translates data => relational like when read.
+    - XML, JSON ,CSV PARQUET,AVRO ORC, APACHE Cloudtrail,VPC FLowlogs
+    Support  structured, semi-structured and unustructured.
+
+    Queries where loading/transformation isn't desired.
+    AWS Glue Data Catalog & Web server Logs
+    w/ Athena Federated Query ... other data sources.
+
+
+    
+    
+
 
 
 

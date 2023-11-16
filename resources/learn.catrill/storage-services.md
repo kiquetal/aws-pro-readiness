@@ -274,7 +274,11 @@
     MultiAZ & Scales via read replicas.
     Where relationships are important.
     
-    
+ #### Quantum Ledger Databases(QLDB) 
+ 
+    Uses S3, and near real time with Kinesis.
+
+ 
 
 
 

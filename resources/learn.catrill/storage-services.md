@@ -233,5 +233,29 @@
     Microsecond latency
     Eventually consistent reads only
     
+#### DynamoDB Global Tables
+
+    Global Tables provides multi-master cross-region replication.
+    Last writer wins 
+    Tables are created in multiple regions and added to the same global table.
+    Read and Write can occur to any region
+    Strongly consistent only in the same region as writes.
+
+#### ELK Stack
+
+    Elasticsearch - search and indexing
+    in a VPC, uses compute
+    Kibana visualization/ dashboard
+    Logstash similar to CWLogs, needs a Logstash agent
+    
+#### Athena
+
+    Serverless interactive querying service
+    Ad-hoc queries on data pay only data consumed.
+    Schema-on-read table like translation
+    Original data never changed - remains on s3
+    Schema translates data => relational like when read.
+
+
 
 

@@ -225,5 +225,13 @@
     Alternative SK on the table
     Shares the RCU and WCU with a table.
 
+#### DAX
+
+    DynamoDB Accelerator
+    In memory cache for DynamoDB
+    10x performance improvement
+    Microsecond latency
+    Eventually consistent reads only
     
+
 

@@ -262,7 +262,17 @@
     AWS Glue Data Catalog & Web server Logs
     w/ Athena Federated Query ... other data sources.
 
+#### Amazon Neptune
 
+    Graph database
+    Highly available, durable, fully managed
+    Supports Apache TinkerPop and SPARQL
+    Use cases: Fraud detection, Social networking,
+    Recommendation engines, Life sciences,
+    Knowledge graphs, Network/IT operations, and more.
+    
+    MultiAZ & Scales via read replicas.
+    Where relationships are important.
     
     
 

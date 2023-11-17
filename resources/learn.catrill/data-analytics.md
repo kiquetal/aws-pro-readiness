@@ -48,6 +48,29 @@
     Real-time dashboards 
     Real-time metrics
 
+#### MapReduce
+
+    Is framework for data analysis architecture - huge scale, parallelal processing.
+    EMR Architecture has at least 1 node, the master node. 
+    Manly core nodes work as data nodes for HDFS.
+    EMRFS is a resilient, HDFS is not.
+    
+#### Redshift
+
+    Is a data warehouse, not a database.Petabyte scale.
+    OLAP(columnar) - Online Analytical Processing, rather than OLTP. 
+    Direct Query S3 using Redshift Spectrum.
+    Direct Query other DBs using federated query
+    Served based (not serverless)
+    Uses cluster architecture., not multi AZ.
+    Leader Node and Compute Nodes.
+
+#### AWS Batch
+
+    Is a managed batch processing product
+    Batch processing is the execution of a series of programs or jobs on a computer without manual intervention.
+    
+
 
     
     

@@ -31,6 +31,24 @@
     - Splunk
     - ElasticSearch
     
+    Can not be considered real time, just near real time.
+    
+    
+#### Amazon Kinesis Data Analytics
+
+    Kinesis data streams are used to allow multiple applications to ingest data.
+    Kinesis DataFIrehose is used to load data into data stores(supports lambda for transformation)
+    Real time processing of data, uses SQL.
+    can be used to use destination using Kinesis Data Firehose.(near real time)
+    can be used to send data to lambda (real time)
+    can be used to send kinesis data streams (real time)
+    
+    Streaming data needing real-time SQL processing
+    Time-series analytics elections/e-sports
+    Real-time dashboards 
+    Real-time metrics
+
+
     
     
     

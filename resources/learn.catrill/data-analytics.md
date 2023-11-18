@@ -96,8 +96,14 @@
     
 #### ECS - Concepts
 
+    Is a service for running docker containers. It's managed.Could be considered serverless
+    usees EC2 instances or Fargate.
+
+    EC2 VS ECS VS Fargate
+
+    If you use containers use ECS
+    Large workload - price consicous - ec2 mode.
     
 
-    
     
     

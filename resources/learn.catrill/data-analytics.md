@@ -78,8 +78,25 @@
 
     Managed vs Unmanaged
     
-    
+#### Amazon QuickSight
 
+    Business Intelligence (BI) service
+    Create and publish interactive dashboards
+    Pay-per-session pricing model
+    Data Sources:
+    - Amazon Athena
+    - Amazon Aurora
+    - Amazon OpenSearch
+    - Amazon Redshift
+    - Amazon S3
+    - Amazon RDS
+    - AWS Iot Analytics
+    - Amazon Timestream
+    - MySQL,Spark,PostgreSQL,SQL Server,Oracle,Presto,MariaDB,Exasol
+    
+#### ECS - Concepts
+
+    
 
     
     

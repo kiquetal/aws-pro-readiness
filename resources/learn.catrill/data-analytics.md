@@ -69,6 +69,15 @@
 
     Is a managed batch processing product
     Batch processing is the execution of a series of programs or jobs on a computer without manual intervention.
+    An alternative for aws lambda, when you reach the 15 minute limit.
+
+    Job Script, Executable or Docker container submitted to batch. 
+    Job Definition -iam, resources config points
+    Job queue job are submitted to a queue
+    Compute Environmnet
+
+    Managed vs Unmanaged
+    
     
 
 

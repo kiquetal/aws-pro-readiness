@@ -110,11 +110,33 @@
     High Availability, Highly Scalable, Fully Managed Message Queuing Service.
     Standard Queue - best effort ordering, at least once delivery.
     FIFO Queue - First in First out, exactly once delivery.
+    3000 messages per second with batching, 300 without.
 
     Max message size is 256kb
     Messages are stored in SQS until a consumer deletes them.
 
+    Visibility Timeout - time a message is invisible to other consumers after a consumer starts processing it.
+    Default is 30 seconds, max is 12 hours.
 
+    Long Polling - Wait for a message to arrive in the queue, before returning a response.
+    Short Polling - Return immediately, even if no messages are in the queue.
 
+    Dead Letter Queue - Messages that can not be processed are sent to a dead letter queue.
+
+#### SQS Extended Client Library
+
+    SQS Extended Client Library for Java
+    Amazon SQS Extended Client Library for Java is a Java library for Amazon SQS that extends the functionality of the Amazon SQS Java Messaging Library to support Amazon SQS message payloads of up to 2 GB.
+
+    Stored in S3, message contains a pointer to the object in S3.
+
+    SQS Delay Queue: has a `DelaySeconds` attribute that allows you to postpone the delivery of new messages to a queue for a number of seconds.
+    Min is 0, max is 900 seconds.
+    Not supported for FIFO queues.
+
+    SNS provides topics
+    SQS provides queue
+    Public services, H/A
+    
     
     

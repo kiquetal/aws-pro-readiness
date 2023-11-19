@@ -138,5 +138,10 @@
     SQS provides queue
     Public services, H/A
     
-    
+#### Amazozn MQ
+
+    Based on Managed Apache ActiveMQ
+    Jms api protocols such as AMQP, MQTT, OpenWire, STOMP.
+    Based on Virtual Private Cloud(VPC)
+
     

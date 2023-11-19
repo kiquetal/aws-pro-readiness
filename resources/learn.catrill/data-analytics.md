@@ -105,5 +105,16 @@
     Large workload - price consicous - ec2 mode.
     
 
+#### SQS
+
+    High Availability, Highly Scalable, Fully Managed Message Queuing Service.
+    Standard Queue - best effort ordering, at least once delivery.
+    FIFO Queue - First in First out, exactly once delivery.
+
+    Max message size is 256kb
+    Messages are stored in SQS until a consumer deletes them.
+
+
+
     
     

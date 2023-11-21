@@ -144,4 +144,8 @@
     Jms api protocols such as AMQP, MQTT, OpenWire, STOMP.
     Based on Virtual Private Cloud(VPC)
 
+#### AWS lambda
     
+    Two key permission model
+    - Execution Role
+    - Resource Based Policy

@@ -162,4 +162,8 @@
     You can´t use $LATEST with aliases.
 
     
-    
+    Lambda layers
+    - Every lambda has a 250mb limit.
+    - Layers are dependant of the language.
+    - For a lambda python the directory structure for layers is
+    - /opt/python

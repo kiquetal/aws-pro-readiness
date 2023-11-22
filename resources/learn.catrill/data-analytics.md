@@ -149,3 +149,17 @@
     Two key permission model
     - Execution Role
     - Resource Based Policy
+
+    Lambda version: 
+    Unpublished function can be changed & deployed.
+    This is what you've used so far.
+    Function can be published... creates an inmutable version.
+    locked,no editing of that published version.
+
+    Lambda Alias:
+    Point to a specific version of a function.
+    Can be used to point to a published version.
+    You can´t use $LATEST with aliases.
+
+    
+    

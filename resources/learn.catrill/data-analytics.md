@@ -166,4 +166,22 @@
     - Every lambda has a 250mb limit.
     - Layers are dependant of the language.
     - For a lambda python the directory structure for layers is
-    - /opt/python
+
+    Gateway Errors
+    - 4xx errors are client errors
+    - 5xx errors are server errors
+    429 API Gateway can throttle requests
+    504 Integration failure between API Gateway and Lambda
+    503 Service unavailable, Lambda is down
+    502 Bad Gateway, Lambda function is not responding
+
+
+    Method integration: how the method working with client
+    Request integration: how the request is sent to the backend.
+
+    Integrations
+    - Mock: return a response without sending the request to the backend
+    - HTTP: HTTP endpoint
+    - Lambda: invoke a lambda function
+    - AWS Service: SQS, SNS,etc
+    - VPC Link: private integration

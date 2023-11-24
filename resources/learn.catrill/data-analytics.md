@@ -181,7 +181,25 @@
 
     Integrations
     - Mock: return a response without sending the request to the backend
-    - HTTP: HTTP endpoint
+    - HTTP: HTTP endpoint (Proxy send the information as is)
     - Lambda: invoke a lambda function
-    - AWS Service: SQS, SNS,etc
+    - AWS Service: SQS, SNS,etc (you need to specify the integration with mapping templates)
     - VPC Link: private integration
+
+![img-api-integrations.png](./images/img-api-integrations.png)
+
+    Mapping templates
+    - Modify or Rename Parameters
+    - Modify the body or headers
+    - Filtering
+    - Uses VTL
+
+    States
+    - SUCCESS & FAIL
+    - WAIT
+    - CHOICE
+    - PARALLEL
+    - PASS
+    - MAP
+    - TASK
+    

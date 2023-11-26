@@ -17,4 +17,8 @@
     Custom Origin can configure ports
     
     If you don´t forward & don't cache, the cache is created using the object name.
+    More things involed in caching the less eficient it is.
+
+
+
 

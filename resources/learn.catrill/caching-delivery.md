@@ -20,5 +20,8 @@
     More things involed in caching the less eficient it is.
 
 
+    You can restrict access via cloudfront for private content.
+    If you have many object use object versioning.
 
+    
 

@@ -13,3 +13,5 @@
     SCT= Schema Conversion Tool.
     Including DB-> S3 (migration using DMS)
     SCT can't be used to migrate DB of the same type.
+
+    Can be used for larger migrations multi-TB in size.

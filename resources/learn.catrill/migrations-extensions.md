@@ -33,3 +33,14 @@
     Data Transfer service TO and FROM AWS.
     Migrations, Data processing transfers, archival, cost effective storage or DR/BC.
     Designed to work at huge scale.    
+    Keeps metadata 
+    Buil-in data validation.
+    Key features 10Gbps (~  100 TB/day)
+    EFS,FSX,Incremental Transfer, Encryption in transit and at rest.
+
+    Task - ajob within DataSync, how quickly, FROM where and TO where
+    Agent - a VM that runs on-premises, or in the cloud, that interacts with the DataSync service.
+    Location - a network endpoint that represents a specific storage system, or a specific services.
+
+
+

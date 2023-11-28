@@ -12,4 +12,12 @@
 
     Deploy CFN stack across many accounts & regions 
     Are containers in an admin account.
+    contain stack instances with reference stacks.
 
+![img-stack-set.png](./images/img-stack-set.png)
+
+    CFN can assume a role to gain the permissions.
+    The identity creating the stack, doesnt need resource permisions
+    only PassRole permission to the role.
+
+    

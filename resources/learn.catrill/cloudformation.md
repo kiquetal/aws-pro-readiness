@@ -20,4 +20,15 @@
     The identity creating the stack, doesnt need resource permisions
     only PassRole permission to the role.
 
-    
+### Cloudformation ChangeSets
+
+    Template => Stack => Physical Resources
+    Stack(Delete) = Delete Physical resoources
+    v2 Temaplate => Existing Stack => Resources Change
+
+### CFN Custom Resources
+
+    Logical Resources in a template - WHAT you want
+    CFN uses them to CREATE, UPDATE and DELETE physical resources
+    Cloudformation does not support all AWS services
+

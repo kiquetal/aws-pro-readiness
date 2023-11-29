@@ -31,4 +31,4 @@
     Logical Resources in a template - WHAT you want
     CFN uses them to CREATE, UPDATE and DELETE physical resources
     Cloudformation does not support all AWS services
-
+"

@@ -40,3 +40,16 @@
 
     An elastic beanstalk application is a collection of
     things relating to an application- a container/folder
+    .ebextensions are a way to customise EB environments
+
+    Inside application source bundle (ZIP/WAR)
+    .ebexntesions folder
+    Can be used to create resources with CFN format.
+
+#### Elastic Beanstalck and HTTPS.
+
+    You can attach the certificate directly to the ALB.
+    Or you can configure that in the EB environment.
+
+
+    

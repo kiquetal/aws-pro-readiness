@@ -13,6 +13,20 @@
 
     Provides FIPS 140-2
     Symmetric and Asymmetric encryption
+    KMS KEYS are regional
+    kms is level 2
+#### CloudHSM
+    Hardware Security Models.
 
+    Shared but separated.
+    FIPS 140-2 Level 3
+    True Single Tenant hardware security module.
+
+    Can´t use cloudHSM with S3 SSE
+    Can be used with Oracle Databases.
+
+        
+
+        
 
 

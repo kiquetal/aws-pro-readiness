@@ -51,5 +51,51 @@
     You can attach the certificate directly to the ALB.
     Or you can configure that in the EB environment.
 
+#### AWS OpsWorks
+
+    Ideally for Dev/Ops teams should use chef or puppet
+    3 Modes:
+    - Puppet Enterprise: AWS Managed Puppet Master Server
+    - Chef Automate: AWS Managed chef servers
+    - OpsWorks: AWS Integrated Chef, no servers
+
+    Remember cookbooks is something related to GIT.
+
+#### AWS System Manager - Agent Architecture.
+
+    Manage and control ec2 and on-premsises infrastructure.
+    Manage Inventory and Patch Assets
+
+    
+#### AWS System Manager - Patch Manager
+
+    Patch Baseline : Defines which patches should be applied
+    Patch Group : Defines which instances should have which patches applied
+    Maintenance Window : Defines when the patches should be applied
+    Run Command : Defines the actual command to be run on the instances
+    Concurrency & Error Threshold   
+    Compliance
+
+    AWS-AmazonLinux2DefaultPatchBaseline
+    AWS-UbuntuDefaultPatchBaseline
+    AWS-DefaultPatchBaseline : critial and security updates
+    AWS-WindowsPredefinedPatchBaseline: same as above
+    AWS-WindowsPredefinedPatchBaseline-OS-Applications: same as above + MS Applications
+
+    1- Define base line
+    2- Create Path group
+    3- Maintance windows
+    4- AWS-RunPatchbaseline
+    5- Compliance, Systems Manager Inventory
+
+    
+
+    
+    
+    
+
+    
+    
+
 
     

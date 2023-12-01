@@ -23,4 +23,11 @@
     Service can be used to achieve a similar
     architecture to auto scaling groups.
 
+### DR-Databases
 
+    
+### DR- Networking
+
+    Regional: ALB, S3,VPC Router
+    Subnet on AZ= ENI,
+    

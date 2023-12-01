@@ -26,7 +26,22 @@
     Can be used with Oracle Databases.
 
         
+### SSM Parameter Store
 
-        
+    Storage for configuration and secrets.
+    Three diferents types
+    - String
+    - StringList
+    - SecureString
+
+### VPC Flow Logs
+
+    Capture metadata (not content).
+    
+#### Application Layer 7 Firewall
+
+    SHIELD VS SHIELD ADVANCED
+    Shield Advanced can apply layer 7 rules.
+    
 
 

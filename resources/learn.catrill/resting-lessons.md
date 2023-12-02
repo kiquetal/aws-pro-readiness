@@ -52,3 +52,15 @@
     Text to speech service.
     Think in a service that can convert text into lifelike speech.
 
+#### Amazon Forecast
+
+    Forecasting service that uses ML to generate predictions.
+    For time-sries data
+    Import historical & related.
+
+#### Amazon Personalize
+
+    ML service to create personalized recommendations for customers.
+    Think in a service that can create recommendations for customers.
+
+

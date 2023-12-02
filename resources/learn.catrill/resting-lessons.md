@@ -63,4 +63,17 @@
     ML service to create personalized recommendations for customers.
     Think in a service that can create recommendations for customers.
 
+#### Amazon Fraud Detector
+
+    Fully managed Fraud Detection service
+    new accounts creations, payments, guest checkout
+    Upload historical data, choose model type
+    - Online Fraud  
+    - Transaction Fraud
+    - Account Takeover
+
+#### Amazon SageMaker
+
+    Fully managed service that provides every developer and data scientist with the ability to build, train, and deploy ML models quickly.
+    Think in a service that can build, train, and deploy ML models quickly.
 

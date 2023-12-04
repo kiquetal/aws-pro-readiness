@@ -16,3 +16,8 @@
 
 #### Question Technique - Example 4
 
+    Behaviour have trusted signers added.
+
+#### Question Technique - Example 5
+
+    

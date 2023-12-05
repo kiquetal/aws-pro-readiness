@@ -20,4 +20,14 @@
 
 #### Question Technique - Example 5
 
-    
+
+#### Question Technique - Example 6
+
+
+#### Question Technique - Example 7
+
+    conduct an analysis of EC2 instances checking for vulnerabilities.
+    products and services for compliance against best practice 
+    standard over time
+
+#### Question Technique - Example 8    

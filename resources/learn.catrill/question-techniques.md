@@ -31,3 +31,14 @@
     standard over time
 
 #### Question Technique - Example 8    
+
+    When you need to mantain 9 EC2
+    What option will you use to guarantee the availability of the service?
+
+#### Question Technique - Example 9
+    
+    AWS Config only can detect changes
+    
+#### Question Technique - Example 10
+
+    

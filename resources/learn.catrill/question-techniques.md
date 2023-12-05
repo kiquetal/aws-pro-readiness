@@ -41,4 +41,6 @@
     
 #### Question Technique - Example 10
 
+    About DX and BGP,
+    Public VIF,Private VIF and so on.
     

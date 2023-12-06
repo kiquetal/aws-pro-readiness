@@ -43,4 +43,9 @@
 
     About DX and BGP,
     Public VIF,Private VIF and so on.
+
+    PRIVATE VIF = 1 VGW = 1 VPC
+
+    No encryption.
+
     

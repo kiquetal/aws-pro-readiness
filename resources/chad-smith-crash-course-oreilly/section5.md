@@ -31,5 +31,10 @@
     contains sesitive data. The EC2 instance use an IAM role granting access to the
     table.
 
+    S3 Data transfer can use edge
+    Then implement s3 multi-region acces point.
+
+
+    
 
 

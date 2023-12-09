@@ -25,5 +25,11 @@
     A company's web application is deployed in AWS. The application uses Cloudfront,
     an Application Load Balancer and Auto-scaling group of EC2.
 
-    S3 3500 read and 5500 write
+    Network security and permissions.
+
+    An application runs on EC2 instances in a VPC and accesses a dynamodb table that
+    contains sesitive data. The EC2 instance use an IAM role granting access to the
+    table.
+
+
 

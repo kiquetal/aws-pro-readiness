@@ -13,5 +13,7 @@
     Parameter store are AZ scoped.
 
     AWS Config can alert cross-account
+
     
+        
     
